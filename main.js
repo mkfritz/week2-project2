@@ -3,9 +3,23 @@
 // 1. Output each item in the following Array to your console:
 var livingRoom = ['couch', 'lamp', 'rug', 'shelf'];
 
+console.log("Question 1");
+console.log(livingRoom[0]);
+console.log(livingRoom[1]);
+console.log(livingRoom[2]);
+console.log(livingRoom[3]);
+
 // 2. Using a loop, log numbers 22-33 in the console.
 
+console.log("Question 2");
+for(i=22; i<=23; i++)
+       console.log(i);
+
 // 3. Using a similar loop, log numbers 75 to 100, only in increments of five.
+
+console.log("Question 3");
+for(i=75; i<=100; i+=5)
+       console.log(i);
 
 // 4. Write a while loop that logs "This is how a professional loops." to the console 5 times.
 //     Use this as an example:
@@ -18,6 +32,14 @@ var livingRoom = ['couch', 'lamp', 'rug', 'shelf'];
 //        }
 
 //        console.log(counter);
+
+var counter = "This is how a professional loops.";
+var num = 0;
+while (num < 5) {  
+  num += num;         
+  counter++;
+}
+console.log(counter); // this doesn't actually work
 
 // 5. Write a conditional statement to find the largest of the numbers in the array provided.
 var largestNum = [-5, -2, -6, 0, -1]
