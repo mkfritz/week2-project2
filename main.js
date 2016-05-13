@@ -33,13 +33,13 @@ for(i=75; i<=100; i+=5)
 
 //        console.log(counter);
 
-var counter = "This is how a professional loops.";
-var num = 0;
-while (num < 5) {  
+var counter = 0;
+var num = 5;
+while (num < 100) {  
   num += num;         
+  console.log("This is how a professional loops.");
   counter++;
 }
-console.log(counter); // this doesn't actually work
 
 // 5. Write a conditional statement to find the largest of the numbers in the array provided.
 var largestNum = [-5, -2, -6, 0, -1]
