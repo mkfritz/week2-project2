@@ -33,7 +33,7 @@ for(i=75; i<=100; i+=5)
 
 //        console.log(counter);
 
-console.log("Question 3");
+console.log("Question 4");
 var counter = 0;
 var num = 5;
 while (num < 100) {  
@@ -45,7 +45,7 @@ while (num < 100) {
 // 5. Write a conditional statement to find the largest of the numbers in the array provided.
 var largestNum = [-5, -2, -6, 0, -1]
 
-console.log("Question 4");
+console.log("Question 5");
 
 var largest = arrayOfNums[0];
 
@@ -61,7 +61,7 @@ console.log(largest);
 //     Print out the sentence "At home, I have _____ cats." Use the number from your counter to fill in the number.
 //     The numbers should range from 10 to 100, in increments of 25.
 
-console.log("Question 5");
+console.log("Question 6");
 
 for (var i = 10; i <= 100; i+=25) {
   console.log("At home, I have " + i + " cats.");
@@ -80,6 +80,24 @@ while (q <= 100) {
 //    number is even and greater than 10, and 'Odd' if the number is odd.
 //    HINT: Google 'remainder operator'
 var numArray = [2, 17, 9, 24, 8];
+
+console.log("Question 7")
+
+var numArray = [2, 17, 9, 24, 8];
+
+for (var i = 0; i < numArray.length; i++) {
+  if (numArray[i] % 2 === 1) {
+    console.log('Odd');
+  }
+  else {
+    if (numArray[i] > 10) {
+      console.log('Even and greater than 10');
+    }
+    else {
+      console.log('Even');
+    }
+  }
+}
 
 // 8. Given the following Array, create variable numThrees with the value [13, 23, 33, 43, 53, 63, 73]
 var numArray = [13, 15, 17, 23, 25, 27, 33, 35, 37, 43, 45, 47, 53, 55, 57, 63, 65, 67, 73, 75, 77]
