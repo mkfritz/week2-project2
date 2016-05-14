@@ -61,6 +61,21 @@ console.log(largest);
 //     Print out the sentence "At home, I have _____ cats." Use the number from your counter to fill in the number.
 //     The numbers should range from 10 to 100, in increments of 25.
 
+console.log("Question 5");
+
+for (var i = 10; i <= 100; i+=25) {
+  console.log("At home, I have " + i + " cats.");
+}
+
+
+var q = 10;
+var num = 25;
+
+while (q <= 100) {
+  console.log("At home, I have " + q + " cats.");
+  q += num;  
+}
+
 // 7. Given the following Array, console log 'Even' if the number is even, 'Even and greater than 10' if the
 //    number is even and greater than 10, and 'Odd' if the number is odd.
 //    HINT: Google 'remainder operator'
