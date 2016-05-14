@@ -103,6 +103,17 @@ for (var i = 0; i < numArray.length; i++) {
 var numArray = [13, 15, 17, 23, 25, 27, 33, 35, 37, 43, 45, 47, 53, 55, 57, 63, 65, 67, 73, 75, 77]
 var numThrees = [];
 
+console.log("Question 8");
+
+for (i = 0; i < numArray.length; i++) {
+  
+  if (numArray[i] % 10 === 3) {
+    numThrees.push(numArray[i]);    
+  }
+  
+}
+console.log(numThrees);
+
 // 9. Write a loop that outputs the following to the console:
 // #
 // ##
@@ -111,6 +122,16 @@ var numThrees = [];
 // #####
 // ######
 // #######
+
+console.log("Question 9");
+
+var hashtag = '#';
+
+for (i = 0; i < 7; i++) {
+  console.log(hashtag);
+  hashtag = hashtag + '#';
+}
+  
 
 
 // RO SHAM BO!
