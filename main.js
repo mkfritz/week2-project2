@@ -33,6 +33,7 @@ for(i=75; i<=100; i+=5)
 
 //        console.log(counter);
 
+console.log("Question 3");
 var counter = 0;
 var num = 5;
 while (num < 100) {  
@@ -43,6 +44,18 @@ while (num < 100) {
 
 // 5. Write a conditional statement to find the largest of the numbers in the array provided.
 var largestNum = [-5, -2, -6, 0, -1]
+
+console.log("Question 4");
+
+var largest = arrayOfNums[0];
+
+for (var i = 1; i < arrayOfNums.length; i++) {
+  if (arrayOfNums[i] > largest) {
+    largest = arrayOfNums[i];
+  }
+}
+
+console.log(largest);
 
 // 6. Separately, use both a for loop and while loop to do the same thing.
 //     Print out the sentence "At home, I have _____ cats." Use the number from your counter to fill in the number.
